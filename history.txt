@@ -1,0 +1,51 @@
+    1  ls /var/www/html/
+    2  apt install net-tools
+    3  sudo apt install net-tools
+    4  netstat -antlp
+    5  ps -ef 
+    6  ps -ef | grep apache
+    7  top
+    8  ps -ef
+    9  apt install stress
+   10  sudo apt install stress
+   11  stress --help
+   12  stress --cpu 8 --timeout 30s
+   13  top
+   14  stress --cpu 8 --timeout 30s
+   15  stress --cpu 8 --timeout 100s
+   16  sudo -i
+   17  apt update
+   18  sudo apt update
+   19  sudo apt install git
+   20  git --help
+   21  ssh-keygen
+   22  ssh-keygen -t rsa
+   23  ls 
+   24  ls
+   25  ls -a
+   26  ls .ssh
+   27  cat .ssh/id_rsa.pub 
+   28  git clone git@github.com:devopstechhub/fuzzy-winner.git
+   29  ls
+   30  cd fuzzy-winner/
+   31  git branch
+   32  ls
+   33  touch sample.txt
+   34  git status
+   35  git add sample.txt
+   36  git status
+   37  git commit -m "Added Sample.txt for practice"
+   38  git push
+   39  touch sample{1..10}.txt
+   40  ls
+   41  git status
+   42  git add .
+   43  git status
+   44  git commit -m "Sending all files at a time"
+   45  git push
+   46  ls
+   47  cat sample.txt 
+   48  git pull
+   49  cat sample.txt 
+   50  git pull
+   51  history > history.txt
