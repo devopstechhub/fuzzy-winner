@@ -49,3 +49,76 @@
    49  cat sample.txt 
    50  git pull
    51  history > history.txt
+   52  cat history.txt 
+   53  git add .
+   54  git commit -m "saving history"
+   55  git push
+   56  git log
+   57  ls
+   58  cd fuzzy-winner/
+   59  ls
+   60  rm sam*
+   61  ls
+   62  rm example.txt 
+   63  ls
+   64  cd ..
+   65  ls
+   66  wget https://www.tooplate.com/zip-templates/2108_dashboard.zip
+   67  ls
+   68  uzip
+   69  unzip
+   70  unzip 2108_dashboard.zip 
+   71  lds
+   72  ls
+   73  cp -r 2108_dashboard/* fuzzy-winner/
+   74  git status
+   75  cd fuzzy-winner/
+   76  git status
+   77  git add .
+   78  git commit -m "Admin Dashboard Deployment"
+   79  git push
+   80  git pull
+   81  git log
+   82  git revert d9cd25977bf8f8ab2de4137c0ccf14848e7c7572
+   83  git log
+   84  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e
+   85  git status
+   86  ls
+   87  git add .
+   88  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e
+   89  git commit -m "Adding New Index file"
+   90  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e
+   91  export EDITOR=vim
+   92  git log
+   93  git status
+   94  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e
+   95  git push
+   96  git log
+   97  git revert d9cd25977bf8f8ab2de4137c0ccf14848e7c7572
+   98  git status
+   99  git add .
+  100  git push
+  101  ls
+  102  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e
+  103  git revert 63d302e0a145510ea9074f6406dbf8ea1ef8f46e --continue
+  104  git revert --continue
+  105  git status
+  106  ls
+  107  rm sampl*
+  108  ls
+  109  cp -r ../2108_dashboard/* .
+  110  git add .
+  111  git commit -m "deploying again"
+  112  git push
+  113  ls
+  114  vim index.html 
+  115  sed -i 's/Performance/Customer-Performance/g' index.html 
+  116  git status
+  117  git add .
+  118  git commit -m "Change in title"
+  119  git push
+  120  git log
+  121  git revert b30f44f0ab43a33ee33b9ed1b1388b06bb79d35a
+  122  git push
+  123  history 
+  124  history > history.txt 
